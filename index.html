@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SailSpeak — yacht rentals booked with the captain</title>
+  <meta name="description" content="SailSpeak is a captains’ network for yacht and boat rentals. Payment is held until the trip ends. Phuket, Pattaya, Koh Samui, France, Monaco.">
+  <link rel="canonical" href="https://sailspeak.com/">
+  <meta property="og:title" content="SailSpeak — yacht rentals booked with the captain">
+  <meta property="og:description" content="Book the boat on the captain’s page. Payment held until the charter ends. Mutual reviews after the trip.">
+  <meta property="og:url" content="https://sailspeak.com/">
+  <style>
+    :root {
+      --deep: #041824;
+      --sea: #0a3048;
+      --foam: #eef4f6;
+      --ink: #132029;
+      --muted: #4d616c;
+      --line: #cdd8de;
+      --accent: #1f7a72;
+      --sand: #c4925a;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font: 17px/1.55 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      color: var(--ink);
+      background: var(--foam);
+    }
+    header {
+      background: var(--deep);
+      color: #f3f7f8;
+      padding: 28px 22px 72px;
+    }
+    .wrap { max-width: 920px; margin: 0 auto; }
+    .brand {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .brand a { color: #d5e4ea; text-decoration: none; }
+    h1 {
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.15;
+      font-weight: 600;
+      margin: 36px 0 16px;
+      max-width: 16ch;
+    }
+    .lede { max-width: 48ch; color: #c5d5dc; font-size: 19px; }
+    .cta {
+      display: inline-block;
+      margin-top: 28px;
+      background: var(--sand);
+      color: #24180c;
+      text-decoration: none;
+      padding: 12px 18px;
+      border-radius: 2px;
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 15px;
+    }
+    main { padding: 0 22px 80px; }
+    section { margin: 48px auto; max-width: 920px; }
+    h2 { font-size: 28px; margin: 0 0 16px; }
+    p { margin: 0 0 14px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+    article, .card {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 18px 16px;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 18px; }
+    .card p, article p { color: var(--muted); font-size: 16px; margin: 0; }
+    a { color: var(--accent); }
+    table { width: 100%; border-collapse: collapse; background: #fff; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 15px; }
+    th { color: var(--muted); font-weight: 600; }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 22px 48px;
+      color: var(--muted);
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 14px;
+    }
+    .note { font-size: 15px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <span>SailSpeak · Captain’s Club</span>
+        <a href="https://sailspeak.com/">sailspeak.com</a>
+      </div>
+      <h1>Rent the boat from the captain who runs it</h1>
+      <p class="lede">SailSpeak is a network of captains. You read the listing, ask your questions on their page, and book. The payment stays held until the charter is over.</p>
+      <a class="cta" href="https://sailspeak.com/">Open SailSpeak</a>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>How a booking works</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1. Pick a boat</h3>
+          <p>Speedboats, fishing days, catamarans, motor yachts. Length, guest count and home port sit on the listing.</p>
+        </div>
+        <div class="card">
+          <h3>2. Talk to the captain</h3>
+          <p>The page belongs to the person who will take you out. Ask about the route, the weather window, kids, fishing gear.</p>
+        </div>
+        <div class="card">
+          <h3>3. Pay into a hold</h3>
+          <p>Funds are frozen on the site. The owner is paid after the rental period. A cancelled trip is replaced or refunded.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Where the boats sit</h2>
+      <p>The catalogue moves with the season. These are the ports that show up most often.</p>
+      <table>
+        <thead>
+          <tr><th>Place</th><th>What people book</th><th>On SailSpeak</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Phuket</td><td>Coral, Maiton, Khai, Phi Phi, Racha, fishing</td><td><a href="https://sailspeak.com/phuket-thailand/">phuket-thailand</a></td></tr>
+          <tr><td>Pattaya</td><td>Island hops, fishing days</td><td><a href="https://sailspeak.com/pattaya-thailand/">pattaya-thailand</a></td></tr>
+          <tr><td>Koh Samui</td><td>Catamaran days, squid fishing, Koh Taen</td><td><a href="https://sailspeak.com/thailand/">thailand</a></td></tr>
+          <tr><td>France / Monaco</td><td>Day motor yachts, including a Mangusta listing</td><td><a href="https://sailspeak.com/">sailspeak.com</a></td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section>
+      <h2>Why the rating exists</h2>
+      <p>After the charter, guest and captain write about each other. That score is how the search list is ordered. A captain who cancels often, or who collects poor notes, drops. In a bad stretch the boats are taken off search altogether.</p>
+      <p>This page is a brand note for SailSpeak, not a second booking desk. Reservations stay on the official site.</p>
+    </section>
+    <section>
+      <h2>For captains</h2>
+      <p>Adding a boat takes a few minutes. You get a public page, messages from guests, and the same payment hold in your favour — an insurance deposit plus release after the rental. Traffic on the site is people already looking for a boat in your water.</p>
+      <p><a href="https://sailspeak.com/make-money/">List a boat on SailSpeak</a></p>
+    </section>
+    <section>
+      <h2>Short FAQ</h2>
+      <article>
+        <h3>Is SailSpeak an agency?</h3>
+        <p>No. Listings are the captains’. The site holds the money and the reviews.</p>
+      </article>
+      <article style="margin-top:12px">
+        <h3>What if the captain cancels?</h3>
+        <p>You are offered another boat or the payment comes back.</p>
+      </article>
+      <article style="margin-top:12px">
+        <h3>Where do I actually book?</h3>
+        <p>Only on <a href="https://sailspeak.com/">sailspeak.com</a>. This page is a description of the product, not a second checkout.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      Official site: <a href="https://sailspeak.com/">https://sailspeak.com/</a><br>
+      This GitHub Page describes the product. Bookings are only on the domain above.
+    </div>
+  </footer>
+</body>
+</html>
